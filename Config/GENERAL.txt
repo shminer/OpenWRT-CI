@@ -105,6 +105,9 @@ CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_jq=y
 CONFIG_PACKAGE_v2dat=y
 
+# for all kmod
+CONFIG_ALL_KMODS=y
+#CONFIG_ALL_NONSHARED=y
 # disable package
 CONFIG_PACKAGE_sing-box=n
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox=n
